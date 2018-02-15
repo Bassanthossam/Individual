@@ -1,0 +1,21 @@
+git init
+git config --global user.name "Bassanthossam"
+git config --global user.email bassant.eldeeb@student.guc.edu.eg
+git config --global color.ui true
+git add section1.1.txt
+git add section3.1.txt
+git add section5.1.txt
+git rm --cached section3.1.txt
+git status
+git add section3.1.txt
+git commit -m "Sections"
+git remote add origin https://github.com/Bassanthossam/Individual.git
+git push -u origin master
+
+git checkout ReadMe
+git add README.md
+git commit -m "ReadMe"
+git push -u origin ReadMe
+git checkout master
+git merge ReadMe
+
