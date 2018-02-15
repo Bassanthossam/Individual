@@ -18,4 +18,6 @@ git commit -m "ReadMe"
 git push -u origin ReadMe
 git checkout master
 git merge ReadMe
-
+git add AllMyCommands.txt
+git comit -m "All the steps"
+git push -u origin master
